@@ -1,0 +1,182 @@
+/*
+Theme Name: MarckTheme
+Theme URI: http://www.google.com
+Description: Mi primer tema de WP.
+Author: Marck
+Author URI: http://www.google.com
+Version: 1.0
+*/
+
+* {
+    font-family:'Titillium Maps', Arial;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+footer {
+    background-image: url("https://cdn.londonandpartners.com/asset/sea-life-london-aquarium-greenseaturtle1-0341c769a5ecafeac66f28c70fab4c8a.jpg");
+    background-size: cover;
+    opacity: 0.8;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin-top: 15px;
+    height: 20vh;
+}
+
+footer a {
+    color: #00b9eb;
+}
+
+a:hover {
+    color: #0a0a0a;
+}
+
+.navbar {
+    padding: 20vh 5vh 0vh 15vh;
+    font-size: 20px;
+
+}
+
+#barra a {
+    color: white;
+}
+
+#barra a h1 {
+    padding-bottom: 5vh;
+}
+
+#barra a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: 50%;
+}
+
+header {
+    background-image: url('http://www.wildlifeday.org/sites/all/themes/wildlifeday/images/theme/bg-top-images/top-bg-2v1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#myCarousel img {
+    height: 100vh;
+
+}
+#myCarousel{
+    margin: 0px;
+    padding: 0px;
+}
+
+#sidebar {
+    background-color: rgba(219, 219, 219, 0.65);
+    padding: 2vh;
+    height: 100vh;
+    width: 100%;
+    border-radius: 40px;
+}
+
+.menu_lateral {
+    padding: 2vh;
+    margin-left: 2px;
+}
+
+#comentarios {
+    width: 100%;
+}
+
+@media (max-width: 1050px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar a h1 {
+        position: absolute;
+        padding: 5vh;
+    }
+}
+
+@media (max-width: 770px) {
+    .navbar a h1 {
+        position: relative;
+        padding: 0;
+    }
+}
+
+@media (max-width: 462px) {
+    .comentarios textarea {
+        width: 100%;
+    }
+}
+
+/******************************************************Estilos que no se tocan*******************************************************************/
+
+.commentlist li {
+    list-style: none !important;
+}
+
+.comment-body {
+    padding: 15px;
+}
+
+.comment-author {
+    margin-top: 5px;
+}
+
+.reply, .commentmetadata {
+    font-size: 0.9em;
+}
+
+.depth-1, .depth-2, .depth-3, .depth-4 {
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+}
+
+.depth-1, .depth-3 {
+    background-color: #fafafa;
+}
+
+.depth-2, .depth-4 {
+    background-color: #fff;
+}
+
+.comment-author-eSandra {
+    border: 3px solid #eaeaea;
+    border-left: 3px solid #fbc356;
+}
+
+.depth-1 {
+    margin: 20px 0;
+}
+
+/* Respuesta a comentarios*/
+
+.depth-2 {
+    margin: 2% 5% !important;
+}
+
+.depth-3 {
+    margin: 2% 7% !important;
+}
+
+.depth-4 {
+    margin: 2% 5% 4% 10% !important;
+}
+
+#comment, #author, #email {
+    border-radius: 4px;
+    border: 2px solid #ccc;
+}

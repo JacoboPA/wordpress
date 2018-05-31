@@ -22,5 +22,6 @@ if ( apply_filters( 'czr_ms', false ) ) {
 		wp_footer(); //do not remove, used by the theme and many plugins
 	  do_action( '__after_footer' ); ?>
 	</body>
+	hola amijos
 	<?php do_action( '__after_body' ); ?>
 </html>
